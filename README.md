@@ -1,7 +1,10 @@
 # TensorFlow Image Classifier
 In this project an image classifier is built using tensorflow, First a deep learning model was built by customising `ImageNet` network and an output layer was added to classify 102 different classes of Flowers, Then a python module [`predict.py`](./predict.py) was built as a commandline application to accept a flower image, print top n prediction probabilities (n=5 as default) also return the dictionary with the predicted name.
 
-## Usage
+## Model Training Notebook
+The training notebook can be found [here](./Project_Image_Classifier_Project.html)
+
+## Module Usage
 
 ![module usage](./predict_help.JPG)
 
